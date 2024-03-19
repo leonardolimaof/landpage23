@@ -6,3 +6,92 @@ footer {
     justify-content: space-around;
     border: 1px solid blue;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff0000, #3366ff, #ff9900, #cc33ff);
+    border: 5px solid #3366ff;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+#final {
+    margin-bottom: 10px;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.afooter {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s; /* Adicionando transição de cor */
+}
+
+.afooter:hover {
+    color: #007bff; /* Mudando a cor do texto ao passar o mouse */
+}
+
+/* Efeito de sublinhado ao passar o mouse */
+.nav-link {
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: width 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    background-color: #ff0000;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Adicionando overflow: hidden para evitar que a imagem ultrapasse a borda do card */
+}
+
+.card:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card-body {
+    transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+    background-color: #212529;
+}
+
+.card-title, .card-text, .btn {
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title, .card:hover .card-text, .card:hover .btn {
+    color: #fff;
+}
