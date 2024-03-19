@@ -25,20 +25,6 @@ footer {
     margin-bottom: 10px;
 }
 
-.social-links {
-    margin-top: 10px;
-}
-
-.afooter {
-    color: #333;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s; /* Adicionando transição de cor */
-}
-
-.afooter:hover {
-    color: #007bff; /* Mudando a cor do texto ao passar o mouse */
-}
 
 /* Efeito de sublinhado ao passar o mouse */
 .nav-link {
@@ -95,3 +81,5 @@ footer {
 .card:hover .card-title, .card:hover .card-text, .card:hover .btn {
     color: #fff;
 }
+
+
