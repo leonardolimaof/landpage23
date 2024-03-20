@@ -14,18 +14,6 @@ body {
     border: 5px solid #3366ff;
 }
 
-
-footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-}
-
-#final {
-    margin-bottom: 10px;
-}
-
-
 /* Efeito de sublinhado ao passar o mouse */
 .nav-link {
     position: relative;
@@ -83,3 +71,81 @@ footer {
 }
 
 
+/* Estilo para o footer */
+footer {
+  background-color: whitesmoke;
+  color: #333;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h4 {
+  color: #333;
+  font-size: 25px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+ul.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+ul.contact-info li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  background-color: whitesmoke;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social li:last-child {
+  margin-right: 0;
+}
+
+.footer-social li a {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Adicione ícones de redes sociais personalizados aqui */
+.footer-social li a:hover {
+  color: #ffc107; /* Altere a cor de destaque conforme necessário */
+}
+
+.custom-form-control {
+  width: calc(100% - 90px); /* ajuste conforme necessário */
+}
+
+.success-message {
+  text-align: center;
+  margin-top: 100px;
+}
+.explore-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
